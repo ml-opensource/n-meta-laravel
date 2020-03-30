@@ -1,0 +1,45 @@
+{
+    "name": "monstar-lab/n-meta-laravel",
+    "description": "Laravel SDK for NMeta",
+    "keywords": [
+        "n-meta",
+        "nmeta",
+        "meta",
+        "php",
+        "laravel"
+    ],
+    "license": "MIT",
+    "homepage": "http://nodesagency.com",
+    "authors": [
+        {
+            "name": "Casper Rasmussen",
+            "email": "cr@nodes.dk",
+            "role": "CTO & Partner"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "monstar-lab-oss/n-meta-php": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "mockery/mockery": "dev-master",
+        "orchestra/testbench": "~3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "NMeta\\": "src/",
+            "NMeta\\Tests\\": "tests/"
+        },
+        "files": [
+            "src/Helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NMeta\\ServiceProvider"
+            ]
+        }
+    }
+}
