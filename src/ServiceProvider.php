@@ -1,6 +1,6 @@
 <?php
 
-namespace NStack;
+namespace NMeta;
 
 use Illuminate\Support\Str;
 
