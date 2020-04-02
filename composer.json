@@ -32,7 +32,7 @@
             "NMeta\\Tests\\": "tests/"
         },
         "files": [
-            "src/Helpers.php"
+            "src/helpers.php"
         ]
     },
     "extra": {
