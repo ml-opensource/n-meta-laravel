@@ -43,6 +43,7 @@ php artisan vendor:publish --provider="NMeta\ServiceProvider"
 Add middleware to routes:
 
 ```php
+// in RouteServiceProvider
 protected function mapApiRoutes()
 {
     Route::prefix('api')
@@ -53,8 +54,7 @@ protected function mapApiRoutes()
 }
 ```
 
-You can now call via facade, eg:
-
+You can now call via function, eg:
 ```php
 nmeta()->getPlatform()
 nmeta()->getVersion()
