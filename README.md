@@ -19,7 +19,7 @@ To install this package you will need:
 
 Run
 
-`composer require nstack/laravel-sdk`
+`composer require monstar-lab-oss/n-meta-laravel`
 
 or setup in composer.json
 
@@ -39,6 +39,19 @@ php artisan vendor:publish --provider="NMeta\ServiceProvider"
 ```
 
 ## ⚙ Usage
+
+Add middleware to routes:
+
+```php
+protected function mapApiRoutes()
+{
+    Route::prefix('api')
+        ->middleware('api')
+        ->middleware(NMetaMiddleware::class) // Add NMeta middleware
+        ->namespace($this->namespace)
+        ->group(base_path('routes/api.php'));
+}
+```
 
 You can now call via facade, eg:
 
