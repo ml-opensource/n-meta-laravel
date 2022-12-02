@@ -1,19 +1,22 @@
 <?php
 
+use NMeta\BadRequestException;
+use NMeta\NMeta;
+
 if (!function_exists('nmeta')) {
     /**
      * nmeta
      *
-     * @return \NMeta\NMeta
-     * @throws \NMeta\BadRequestException
+     * @return NMeta
+     * @throws BadRequestException
      * @author Casper Rasmussen <cr@nodes.dk>
      */
-    function nmeta(): \NMeta\NMeta
+    function nmeta(): NMeta
     {
         try {
-            return app(\NMeta\NMeta::class);
+            return app(NMeta::class);
         } catch (Illuminate\Contracts\Container\BindingResolutionException $e) {
-            throw new \NMeta\BadRequestException('NMeta is not attached, is the middleware added?');
+            throw new BadRequestException('NMeta is not attached, is the middleware added?');
         }
     }
 }

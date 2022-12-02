@@ -19,10 +19,10 @@ class NMetaMiddleware
      * @param \Illuminate\Http\Request $request
      * @param \Closure                 $next
      * @param null                     $guard
-     * @return mixed
+     * @return Closure
      * @author Casper Rasmussen <cr@nodes.dk>
      */
-    public function handle(Request $request, Closure $next, $guard = null)
+    public function handle(Request $request, Closure $next, $guard = null): Closure
     {
         app()->singleton(NMeta::class, function () use ($request) {
             $config = new Config(config('n-meta'));
