@@ -15,7 +15,7 @@ Package to enforce & parse Meta header (Default: "Client-Meta-Information")
 
 To install this package you will need:
 
-* PHP 7.1+
+* PHP 8.0+
 
 Run
 
@@ -23,7 +23,7 @@ Run
 
 or setup in composer.json
 
-`monstar-lab-oss/n-meta-laravel: 1.0.x`
+`monstar-lab-oss/n-meta-laravel: 2.0.x`
 
 In `config/app.php` (Laravel) or `bootstrap/app.php` (Lumen) you should add service provider
 
