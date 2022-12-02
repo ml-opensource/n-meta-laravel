@@ -9,17 +9,22 @@
         "laravel"
     ],
     "license": "MIT",
-    "homepage": "http://nodesagency.com",
+    "homepage": "https://monstar-lab.com",
     "authors": [
         {
             "name": "Casper Rasmussen",
             "email": "cr@nodes.dk",
             "role": "CTO & Partner"
+        },
+        {
+            "name": "Rasmus Ebbesen",
+            "email": "rasmus.ebbesen@monstar-lab.com",
+            "role": ""
         }
     ],
     "require": {
-        "php": "^7.1",
-        "monstar-lab-oss/n-meta-php": "^1.0.0"
+        "php": "^8.0",
+        "monstar-lab-oss/n-meta-php": "^2.0.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0",

@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ecd5f208c1e7870e9ef71d081eb73365",
+    "content-hash": "d0d0c4a222388f574f868b1616cd549b",
     "packages": [
         {
             "name": "monstar-lab-oss/n-meta-php",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/monstar-lab-oss/n-meta-php.git",
-                "reference": "7d1fa16010552d3b9e0a8e8cf44b0934fa8fd5f5"
+                "reference": "0cb5899a2120e75b8de44063757ddb4215c463c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monstar-lab-oss/n-meta-php/zipball/7d1fa16010552d3b9e0a8e8cf44b0934fa8fd5f5",
-                "reference": "7d1fa16010552d3b9e0a8e8cf44b0934fa8fd5f5",
+                "url": "https://api.github.com/repos/monstar-lab-oss/n-meta-php/zipball/0cb5899a2120e75b8de44063757ddb4215c463c1",
+                "reference": "0cb5899a2120e75b8de44063757ddb4215c463c1",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1"
+                "php": "^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.0"
@@ -52,9 +52,9 @@
             ],
             "support": {
                 "issues": "https://github.com/monstar-lab-oss/n-meta-php/issues",
-                "source": "https://github.com/monstar-lab-oss/n-meta-php/tree/develop"
+                "source": "https://github.com/monstar-lab-oss/n-meta-php/tree/2.0.0"
             },
-            "time": "2020-03-30T17:20:51+00:00"
+            "time": "2022-12-02T11:35:32+00:00"
         }
     ],
     "packages-dev": [
@@ -4580,7 +4580,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1"
+        "php": "^8.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
