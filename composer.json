@@ -19,7 +19,7 @@
     ],
     "require": {
         "php": "^7.1",
-        "monstar-lab-oss/n-meta-php": "dev-master"
+        "monstar-lab-oss/n-meta-php": "^1.0.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0",
